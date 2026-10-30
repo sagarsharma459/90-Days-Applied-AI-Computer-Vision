@@ -1,0 +1,32 @@
+# Day 1 - Python Fundamentals
+
+## Topics Learned
+- Variables
+- Python data types
+- Integer and float
+- String and Boolean
+- User input
+- Type conversion
+- Arithmetic operations
+- Output formatting
+
+## Practical Project
+Production Inspection Calculator
+
+## Concepts Applied
+- Production quantity calculation
+- Accepted and rejected product calculation
+- Rejection percentage
+- Input validation
+- Conditional statements
+
+## Key Learning
+I learned how to build a basic industrial production
+inspection calculator using Python.
+
+## Revision Questions
+1. What is a variable?
+2. Explain Python data types.
+3. What does input() return?
+4. Why do we use int(input())?
+5. How is rejection percentage calculated?
