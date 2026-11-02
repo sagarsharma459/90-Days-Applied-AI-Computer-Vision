@@ -24,9 +24,107 @@ Production Inspection Calculator
 I learned how to build a basic industrial production
 inspection calculator using Python.
 
-## Revision Questions
-1. What is a variable?
-2. Explain Python data types.
-3. What does input() return?
-4. Why do we use int(input())?
-5. How is rejection percentage calculated?
+## Day 1 – Python Interview Questions
+
+### 1. What is a variable?
+
+A variable is a named memory location used to store data. We can use variables to store values and reuse them in a program.
+
+**Example:**
+```python
+product_weight = 100
+product_name = "Medicine Bottle"
+```
+
+### 2. Explain Python data types.
+
+Python data types define the type of value stored in a variable.
+
+Common Python data types:
+
+| Data Type | Description | Example |
+|---|---|---|
+| `int` | Integer numbers | `age = 25` |
+| `float` | Decimal numbers | `weight = 100.5` |
+| `str` | Text or string | `name = "Product"` |
+| `bool` | True or False | `is_accepted = True` |
+
+### 3. What does `input()` return?
+
+The `input()` function always returns the user's input as a string (`str`), even if the user enters a number.
+
+**Example:**
+```python
+weight = input("Enter product weight: ")
+print(type(weight))
+```
+
+**Output:**
+```text
+<class 'str'>
+```
+
+### 4. Why do we use `int(input())`?
+
+We use `int(input())` to convert user input from a string into an integer so that we can perform mathematical calculations.
+
+**Example:**
+```python
+quantity = int(input("Enter quantity: "))
+total = quantity * 10
+
+print(total)
+```
+
+If the user enters `5`, the output will be `50`.
+
+**Note:** If the user enters non-numeric text, Python raises a `ValueError`.
+
+### 5. How is rejection percentage calculated?
+
+Rejection percentage is calculated by dividing the number of rejected products by the total number of products and multiplying the result by 100.
+
+**Formula:**
+
+Rejection Percentage = (Rejected Products / Total Products) × 100
+
+**Example:**
+```python
+total_products = 100
+rejected_products = 10
+
+rejection_percentage = (
+    rejected_products / total_products
+) * 100
+
+print(f"Rejection Percentage: {rejection_percentage:.2f}%")
+```
+
+**Output:**
+```text
+Rejection Percentage: 10.00%
+```
+
+### Quick Revision
+
+| Concept | Remember |
+|---|---|
+| Variable | Stores data |
+| `int` | Whole numbers |
+| `float` | Decimal numbers |
+| `str` | Text |
+| `bool` | True or False |
+| `input()` | Returns string |
+| `int(input())` | Converts input to integer |
+| Rejection percentage | Rejected / Total × 100 |
+
+### Day 1 Learning Outcome
+
+I learned Python variables, basic data types, user input, type conversion, arithmetic operations, formatted output, and rejection percentage calculation through an Industrial Production Inspection Calculator.
+
+### Revision Schedule
+
+- [ ] Revise after 1 day
+- [ ] Revise after 7 days
+- [ ] Revise after 21 days
+- [ ] Practise explaining all 5 questions without looking at the answers
