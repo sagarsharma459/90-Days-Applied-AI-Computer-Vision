@@ -50,14 +50,56 @@ operations using Python loops.
 - [ ] I can explain loops in an interview.
 
 
-8. Day 3 interview questions
-Save these in your Day 3 README.
-Question	Short interview answer
-What is a loop?	A loop executes a block of code repeatedly.
-What are the two main loops in Python?	for and while.
-What is range()?	It generates a sequence of numbers.
-What is an infinite loop?	A loop that never terminates because its stopping condition is never reached.
-Difference between for and while?	for iterates over a sequence; while repeats while a condition is true.
-What does break do?	Immediately terminates the loop.
-What does continue do?	Skips the current iteration and continues with the next one.
-What is a nested loop?	A loop inside another loop.
+## 8. Day 3 Interview Questions
+
+### Python Loops – Interview Preparation
+
+| No. | Interview Question | Short Interview Answer |
+|---|---|---|
+| 1 | What is a loop? | A loop executes a block of code repeatedly. |
+| 2 | What are the two main loops in Python? | `for` and `while`. |
+| 3 | What is `range()`? | It generates a sequence of numbers. |
+| 4 | What is an infinite loop? | A loop that never terminates because its stopping condition is never reached. |
+| 5 | Difference between `for` and `while`? | `for` iterates over a sequence; `while` repeats while a condition is true. |
+| 6 | What does `break` do? | Immediately terminates the loop. |
+| 7 | What does `continue` do? | Skips the current iteration and continues with the next one. |
+| 8 | What is a nested loop? | A loop inside another loop. |
+
+### Quick Revision
+
+| Concept | Purpose |
+|---|---|
+| `for` | Iterate over a sequence |
+| `while` | Repeat while a condition is true |
+| `range()` | Generate a sequence of numbers |
+| `break` | Exit the loop |
+| `continue` | Skip the current iteration |
+| Nested loop | Execute one loop inside another |
+
+### Industrial Application
+
+In a production inspection system:
+
+- A `for` loop can process a fixed number of products.
+- A `while` loop can continuously monitor production.
+- `break` can stop inspection when an emergency condition occurs.
+- `continue` can skip an invalid product record.
+- Counters can track accepted and rejected products.
+
+### Day 3 Learning Outcome
+
+I learned Python loops and implemented a Production Inspection Counter using:
+
+- `for` and `while` loops
+- `range()`
+- `break` and `continue`
+- Nested loops
+- Accepted and rejected product counters
+- Rejection percentage calculation
+
+### Revision Schedule
+
+- [ ] Revise after 1 day
+- [ ] Revise after 7 days
+- [ ] Revise after 21 days
+- [ ] Practise explaining all 8 questions without looking at the answers
